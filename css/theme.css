@@ -1,11 +1,11 @@
 /*
-color1: #5E9FA3 // blue
-color2: #DCD1B4 // tan
-color3: #FAB87F // yellow
-color4: #F87E7B // peach
-color5: #B05574 // pink
+color1: #A9C4BD
+color2: #E4DDCB
+color3: #EC7B59
+color4: #CE4648
+color5: #524556
  */
 
 body {
-	background: url('../img/patterns/lodyas.png');
+	background: url('../img/patterns/tiles.png');
 }

@@ -110,11 +110,20 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #CE4648;
+}
+
 /* wrap and margins */
 .wrap {
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
+}
+
+.base-padding {
+    padding: 10px;
 }
 
 
