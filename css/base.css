@@ -95,6 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+    box-sizing: border-box;
+}
+
 /* body edits */
 html {
     height: 100%;

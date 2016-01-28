@@ -1,0 +1,15 @@
+/* main navigation menu states */
+.main-nav-menu > ul > li > a:hover {
+	color: #5E9FA3;
+	background: #fff;
+	transition: 0.3s;
+}
+
+.main-nav-menu > ul > li > a:active {
+	
+}
+
+.main-nav-menu .active {
+	color: #B05574;
+	background: #eae3d2;
+}
