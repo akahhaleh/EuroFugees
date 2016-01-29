@@ -14,7 +14,7 @@
 
 /* main content */
 .main {
-	min-height: 65%;
+	height: auto;
 }
 
 .main > .wrap > * {
