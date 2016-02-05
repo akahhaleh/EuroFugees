@@ -1,3 +1,4 @@
+/* <<<<<<< HEAD >>>>>>> 118de9780e35005c337634345b391c6663633237 */
 /* base edits */
 a:hover {
 	color: #d46e50;
@@ -11,7 +12,12 @@ a:hover {
 }
 
 .main-nav-menu > ul > li > a:active {
-	
+}
+
+.main-nav-menu .active {
+	color: #524556;
+	background: #fff;
+	max-width: 50%;
 }
 
 /* create profile states */
