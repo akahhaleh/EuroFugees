@@ -1,5 +1,3 @@
-/* <<<<<<< HEAD >>>>>>> 118de9780e35005c337634345b391c6663633237 */
-
 /* main navigation structure */
 .main-nav-menu {
 	width: 100%;
@@ -17,7 +15,6 @@
 .main-nav-menu > ul > li > a {
 	background: #CE4648;
 	color: #fff;
-
 	width: 100%;
 	height: 100%;
 	border-radius: 3px;
@@ -41,8 +38,6 @@
 
 .main-header .main-nav-menu li:last-of-type {
 	margin-right: 0;
-=======
-	width: 50%;
 }
 
 /* feature box */
@@ -64,13 +59,13 @@
 	width: 100%;
 	height: 100%;
 	width: 100%;
-	color: #EC7B59;
-	border: 2px solid #EC7B59;
+	color: #CE4648;
+	border: 2px solid #CE4648;
 	padding: 10px 0;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
-	font-size: 2rem;
+	border-radius: 3px;
 }
 
 /* front box nav */

@@ -30,11 +30,11 @@
 
 /* navigation menus overlap */
 .main-nav-menu {
-	display: inline-block;
 	text-align: center;
 }
 
 .main-nav-menu > ul {
+	display: inline-block;
 	list-style: none;
 	margin: 0;
 	padding: 0;
