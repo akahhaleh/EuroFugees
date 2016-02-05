@@ -3,25 +3,41 @@
 	width: 100%;
 }
 
-.main-nav-menu > ul > li {
-	margin: 0 5px;
-	height: 4rem;
-	margin: 10px 0;
+.main-nav-menu > ul {
 	width: 100%;
-	font-size: 2rem;
 }
 
-.main-nav-menu > ul > li:first-of-type {
-	margin-left: 0;
+.main-nav-menu > ul > li {
+	display: inline-block;
+	font-size: 1.25rem;
 }
 
 .main-nav-menu > ul > li > a {
-	display: inline-block;
-	padding: 10px 15px 0;
-	height: 100%;
-	background: #524556;
+	background: #CE4648;
 	color: #fff;
 	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	padding: 5% 0;
+	font-family: "Century Gothic", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+
+.main-header .main-nav-menu {
+}
+
+.main-header .main-nav-menu li {
+	width: 47%;
+	margin: 3%;
+}
+
+.main-header .main-nav-menu li:first-of-type {
+	margin-left: 0;
+}
+
+.main-header .main-nav-menu li:last-of-type {
+	margin-right: 0;
 }
 
 /* feature box */
@@ -35,6 +51,7 @@
 /* create profile features */
 .create-profile {
 	display: block;
+	margin: 10px 0 10px;
 }
 
 .create-profile > a {
@@ -92,11 +109,15 @@
 }
 
 /* large typography */
-.large-header-title {
-	color: #fff;
-	font-size: 2rem;
+
+/* logo */
+.logo-module {
+	background: #CE4648;
 	text-align: center;
-	margin: 10% 0;
-	font-family: "Garamond", "Times New Roman", serif;
-	letter-spacing: 1px;
+	width: 100%;
+	padding: 5%;
+}
+
+.logo {
+	width: 50%;
 }

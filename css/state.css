@@ -5,18 +5,13 @@ a:hover {
 
 /* main navigation menu states */
 .main-nav-menu > ul > li > a:hover {
-	color: #524556;
-	background: #fff;
+	color: #fff;
+	background: #CE4648;
 	transition: 0.3s;
 }
 
 .main-nav-menu > ul > li > a:active {
 	
-}
-
-.main-nav-menu .active {
-	color: #524556;
-	background: #fff;
 }
 
 /* create profile states */
