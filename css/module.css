@@ -40,6 +40,26 @@
 	margin-right: 0;
 }
 
+
+.main-footer .main-nav-menu > ul {
+	padding: 30px 0;
+}
+
+.main-footer .main-nav-menu > ul > li {
+	display: block;
+	width: 60%;
+	margin: 0 auto 15px;
+}
+
+.main-footer .main-nav-menu > ul > li:last-of-type {
+	margin-bottom: 0;
+}
+
+.main-footer .main-nav-menu > ul > li > a {
+
+}
+
+
 /* feature box */
 .front-feature {
 	width: 100%;
