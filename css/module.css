@@ -24,9 +24,6 @@
 }
 
 
-.main-header .main-nav-menu {
-}
-
 .main-header .main-nav-menu li {
 	width: 47%;
 	margin: 3%;
@@ -141,3 +138,26 @@
 .logo {
 	width: 50%;
 }
+
+/* user profile */
+.user-profile {
+
+}
+
+.user-profile-banner {
+
+}
+
+.user-profile-details {
+
+}
+
+.user-profile-category {
+
+}
+
+.detail-item {
+
+}
+
+/* housing */
