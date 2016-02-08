@@ -1,51 +1,10 @@
-
-/* main header */
-.main-header {
-	background: #e6e6e6
-	
-}
-
-.main-header > .wrap > * {
-
-}
-
-/* main content */
-.main {
-	height: auto;
-}
-
-.main > .wrap > * {
-
-}
-1`
-/* main footer */
-.main-footer {
-	background: #000;
-	box-shadow: 0 0 5px #000;
-}
-
-.main-footer > .wrap > * {
-	
-}
-
-/* navigation menus overlap */
-.main-nav-menu {
-	text-align: center;
-}
-
-.main-nav-menu > ul {
-	display: inline-block;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.main-nav-menu > ul > li {
-	text-decoration: none;
-	font-weight: none;
-}
-
-.main-nav-menu > ul > li > a {
-	display: inline-block;
-	text-decoration: none;
+.center-center {
+	width: 80%;
+	height: 70%;
+	min-width: 200px;
+	max-width: 400px;
+	margin: auto;
+	overflow: auto;
+	top: 0;	left: 0; bottom: 0;	right: 0;
+	position: absolute;
 }

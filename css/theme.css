@@ -9,3 +9,14 @@ color5: #524556
 body {
 	background: url('../img/patterns/tiles.png');
 }
+
+a {
+	color: #EC7B59;
+	text-transform: uppercase;
+}
+
+.card {
+	padding: 40px 20px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px #aaa;
+}
