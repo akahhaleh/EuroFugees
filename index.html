@@ -1,80 +1,135 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html class="no-js" lang="">
   <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="MyfirstCSS.css">
-    
-  </head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+
+
+    <!-- everything else -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/module.css">
+    <link rel="stylesheet" href="css/state.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    </head>
   <body>
-    <div class="nav">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">My</a></li>
-          <li><a href="#">Name</a></li>
-        </ul>
-        <ul class = "pull-right">
-          <li><a href="#">Is</a></li>
-          <li><a href="#">Amr</a></li>
-          <li><a href="#">Kahhaleh</a></li>
-        </ul>
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                  <li><a href="index.php">My Profile</a></li>
+                  <li><a href="about.php">Housing</a></li>
+                  <li><a href="#portfolio">Schools</a></li>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="contact.php">Settings</a></li>
+              </ul>
+          </div>
       </div>
+    </nav>
+
+    <!-- header -->
+    <section class="logo-module">
+      <img src="img/logo/logo-white.png" alt="EuroFugees Logo" class="logo">
+    </section>
+    <header id="header" class="main-header base-padding">
+      <section class="main-nav-menu-module">
+        <div class="wrap">
+          <form action="action_page.php">
+              <input id="searchBox" style="width:100%; height:2em" type="search" name="googlesearch" placeholder="What are you looking for?">
+          </form>
+          <nav class="main-nav-menu">
+            <ul>
+              <li><a href="listings.html" title="Home" class="active">Housing</a></li><li><a href="search.html" title="Home">Jobs</a></li><li><a href="search.html" title="Home">Schools</a></li>
+            </ul>
+          </nav>
+          <div class="create-profile"><a href="#">Search</a></div>
+        </div>
+      </section>
+    </header><!-- /header -->
+
+    <!-- main -->
+    <div class="main">
+      <section class="front-feature base-padding">
+        <div class="wrap">
+          <section class="feature-links">
+            <article class="feature-link-box">
+              <div class="feature-link">
+                <a href="housing.html" title="Home">Housing</a>
+                <p style="color:white; font-size:20px;">Tutorial for finding housing</p>
+              </div>
+            </article><!--
+            --><article class="feature-link-box">
+              <div class="feature-link">
+                <a href="jobs.html" title="Home">Jobs</a>
+                <p style="color:white; font-size:20px;">Tutorial for finding jobs</p>
+              </div>
+            </article><!--
+            --><article class="feature-link-box">
+              <div class="feature-link">
+                <a href="schools.html" title="Home">Schools</a>
+                <p style="color:white; font-size:20px;"> Tutorial for finding schools</p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
     </div>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>The best Designer in the world<h1>
-        <p>Jony Ive</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div> 
-    
-    <div class = "neighborhood-guides">
-      <div class = "container">
-        <h2>Neighborhood Guides</h2>
-        <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.<p>
-        <div class = "row">
-          <div class = "col-md-4">
-            <div class="thumbnail">
-            <img src="http://laughingsquid.com/wp-content/uploads/2015/03/new-macbook-1.jpg?w=1200" >
-            </div>
-          </div>
-          <div class = "col-md-4">
-            <div class="thumbnail">
-            <img src="http://www.3g.co.uk/tinyimages/Apple/Apple-iPhone-6-Camera.jpg" >
-            </div>
-          </div>
-          <div class = "col-md-4">
-            <div class="thumbnail">
-            <img src="http://e.fastcompany.net/multisite_files/fastcompany/poster/2014/10/3037149-poster-p-1-apple-ipad-air-2.jpg" >
-            </div>
-          </div>
-        </div>  
-    </div>
+    <!-- footer -->
+    <footer id="footer" class="main-footer base-padding">
+      <div class="wrap">
+        <nav class="main-nav-menu">
+          <ul>
+          <li><a href="learning.html" title="Home">Learning</a></li>
+          <li><a href="resources.html" title="Home">Resources</a></li>
+          <li><a href="news.html" title="Home">News</a></li>
+          <li><a href="faqs.html" title="Home">FAQs</a></li>
+          </ul>
+        </nav>
+      </div>            
+    </footer>
 
-    <div class="learn-more">
-	  <div class="container">
-		<div class= "row">
-	      <div class = "col-md-4">
-			<h3>Macbook</h3>
-			<p>learn more</p>
-			<p><a href="http://www.apple.com/macbook/">Macbook</a></p>
-	      </div>
-		  <div class = "col-md-4">
-			<h3>iPhone 6</h3>
-			<p>learn more</p>
-			<p><a href="http://www.apple.com/iPhone/">iPhone 6</a></p>
-		  </div>
-		  <div class = "col-md-4">
-			<h3>iPad Air 2</h3>
-			<p>learn more</p>
-			<p><a href="http://www.apple.com/iPad/">iPad Air 2</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
+    <!-- bottom scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
   </body>
 </html>
